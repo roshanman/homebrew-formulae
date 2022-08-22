@@ -11,8 +11,4 @@ class Autocrash < Formula
     system "make", "install", "prefix=#{prefix}"
   end
 
-  test do
-    system "touch" "testfile"
-    system "#{bin}/swiftmix" "testfile"
-  end
 end
