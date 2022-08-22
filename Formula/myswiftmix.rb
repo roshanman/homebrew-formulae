@@ -1,7 +1,7 @@
-class Swiftmix < Formula
+class MySwiftmix < Formula
   desc "Import files into your Swift scripts!"
   homepage "https://github.com/mrtokii/swiftmix"
-  url "https://github.com/mrtokii/swiftmix.git", tag: "1.0.0"
+  url "https://github.com/roshanman/swiftmix.git", tag: "1.0.1"
   version "1.0.0"
   license "MIT"
 
